@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>Document</title>
+
+    <style>
+        .title {
+            font-size: 40px;
+            font-weight: 100;
+            background-color: #333;
+            color: white;
+        }
+
+        /* .text-center {
+            text-align: center;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        .text-left {
+            text-align: left;
+        } */
+
+        /* SMALL SCREEN */
+        /* @media (min-width: 576px) {
+
+            .text-sm-center {
+                text-align: center;
+            }
+
+            .text-sm-right {
+                text-align: right;
+            }
+
+            .text-sm-left {
+                text-align: left;
+            }
+        } */
+
+        /* MEDIUM SCREEN */
+        /* @media (min-width: 768px) {
+
+            .text-md-center {
+                text-align: center;
+            }
+
+            .text-md-right {
+                text-align: right;
+            }
+
+            .text-md-left {
+                text-align: left;
+            }
+        } */
+
+        /* LARGE SCREEN */
+        /* @media (min-width: 992px) {
+
+            .text-lg-center {
+                text-align: center;
+            }
+
+            .text-lg-right {
+                text-align: right;
+            }
+
+            .text-lg-left {
+                text-align: left;
+            }
+        } */
+
+        /* X-LARGE SCREEN */
+        /* @media (min-width: 1200px) {
+
+            .text-xl-center {
+                text-align: center;
+            }
+
+            .text-xl-right {
+                text-align: right;
+            }
+
+            .text-xl-left {
+                text-align: left;
+            }
+        } */
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                        aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container">
+        <h2 class="title text-center text-sm-left">First title</h2>
+        <h2 class="title text-right text-md-center text-xl-left">Another awesome title</h2>
+
+        <div class="jumbotron bg-dark text-white">
+            <h1 class="display-4">Hello, world!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
+                to featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <a class="btn btn-danger btn-lg" href="#" role="button">Learn more</a>
+        </div>
+
+        <div class="alert alert-primary" role="alert">
+            A simple primary alert—check it out!
+        </div>
+
+        <div class="row">
+            <div class="col-2">1</div>
+            <div class="col-2">1</div>
+            <div class="col-2">1</div>
+            <div class="col-2">1</div>
+            <div class="col-2">1</div>
+            <div class="col-2">1</div>
+        </div>
+
+        <!-- GRID STARTS HERE -->
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-2 mb-md-4">
+                <div style="background-color: red;" class="h-100">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem voluptatibus molestiae cum,
+                    minus
+                    fugit illo! Hic odio ratione autem quasi debitis, quo in earum error numquam magni explicabo aliquam
+                    libero?
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-2 mb-md-4">
+                <div style="background-color: red;" class="h-100">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit.
+                    Tempora
+                    doloremque
+                    animi
+                    delectus fuga doloribus culpa voluptates repudiandae soluta repellat voluptas neque quam corporis
+                    deserunt, dolore blanditiis minus. Aperiam, harum saepe.</div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-2 mb-md-4">
+                <div style="background-color: red;" class="h-100">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem voluptatibus molestiae cum,
+                    minus
+                    fugit illo! Hic odio ratione autem quasi debitis, quo in earum error numquam magni explicabo aliquam
+                    libero?
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-2 mb-md-4">
+                <div style="background-color: red;" class="h-100">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit.
+                    Tempora
+                    doloremque
+                    animi
+                    delectus fuga doloribus culpa voluptates repudiandae soluta repellat voluptas neque quam corporis
+                    deserunt, dolore blanditiis minus. Aperiam, harum saepe.</div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-2 mb-md-4">
+                <div style="background-color: red;" class="h-100">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit.
+                    Tempora
+                    doloremque
+                    animi
+                    delectus fuga doloribus culpa voluptates repudiandae soluta repellat voluptas neque quam corporis
+                    deserunt, dolore blanditiis minus. Aperiam, harum saepe.</div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-2 mb-md-4">
+                <div style="background-color: red;" class="h-100">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit.
+                    Tempora
+                    doloremque
+                    animi
+                    delectus fuga doloribus culpa voluptates repudiandae soluta repellat voluptas neque quam corporis
+                    deserunt, dolore blanditiis minus. Aperiam, harum saepe.</div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                    class="img-fluid" alt="">
+            </div>
+            <div class="col-8">
+                <h4>title</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quos repellat ipsum perferendis,
+                    minima qui delectus hic ea accusantium unde odit rem iusto quo? Suscipit eius alias quaerat ut
+                    possimus!</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-2 mb-md-4">
+                <div class="card shadow">
+                    <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go <span
+                                class="d-none d-sm-inline d-lg-none">somewhere</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-2 mb-md-4">
+                <div class="card shadow">
+                    <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go <span
+                                class="d-none d-sm-inline d-lg-none">somewhere</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-2 mb-md-4">
+                <div class="card shadow">
+                    <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go <span
+                                class="d-none d-sm-inline d-lg-none">somewhere</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-2 mb-md-4">
+                <div class="card shadow">
+                    <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go <span
+                                class="d-none d-sm-inline d-lg-none">somewhere</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-2 mb-md-4">
+                <div class="card shadow">
+                    <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go <span
+                                class="d-none d-sm-inline d-lg-none">somewhere</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 mb-2 mb-md-4">
+                <div class="card shadow">
+                    <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go <span
+                                class="d-none d-sm-inline d-lg-none">somewhere</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
